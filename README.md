@@ -12,7 +12,7 @@ This data was gathered by Yohan Meyer, Diana Nurbakova and Guillaume Berthomet w
 
 ## Organization and location of the data
 
-The data is organized in json files. Each json file contains a unique list, in which the examples are listed. Each chiasmi has at least two properties: *text* is the raw text containing the antimetabole and *category* is the category of the chiasmi. The category can be one of: `Antimetabole`, `SemanticChiasmus`, `PhoneticChiasmus`, `NonSalientAntimetabole` and `NotAntimetabole`. The difference between the latter two is that a nonsalient antimetabole will still include an inverse repetition of lemmata,  whereas a phrase that is not an antimetabole should not show any inverse repetition.
+The data is organized in json files. Each json file contains a unique list, in which the examples are listed. Each chiasmi has at least two properties: *text* is the raw text containing the antimetabole and *category* is the category of the chiasmi. The category can be one of: `Antimetabole`, `SemanticChiasmus`, `PhoneticChiasmus`, `NonSalientAntimetabole` and `NotAChiasmus`. The difference between the latter two is that a nonsalient antimetabole will still include an inverse repetition of lemmata,  whereas a phrase that is not an antimetabole should not show any inverse repetition.
 
 All the data can be found in the `data` sub-folder, in one of the following files:
 - Files with only positive examples of chiasmi:
