@@ -1,12 +1,14 @@
 # Chiasmi Dataset(s)
 
-This github repository contains an extensive number of annotated data: salient chiasmi and antimetaboles and non-salient antimetaboles. It is also accompanied by a list of random sentences that are not specifically chiastic.
+This github repository contains an extensive number of annotated data: salient chiasmi and antimetaboles and non-salient antimetaboles. It is also accompanied by a list of random sentences that are not specifically chiastic. It is important to note that due to the size of the datasets, the data can not be perfect and a few errors will have sneaked up while annotating.
 
-It can be thus be used for any NLP tasks involving chiasmi that needs a large amount of data, like ML and DL models training, for tasks like detection, classification or generation.
+Specifically, this repository contains ***742*** salient chiasmi (subdived into ***638*** antimetaboles, ***98*** semantic chiasmi and ***8*** phonetic chiasmi), ***2720*** rhetorically nonsalient antimetaboles and 1388 random extracts without any particular chiastic repetition detected.
+
+This data can thus be used for any NLP tasks involving chiasmi that needs a large amount of data, like ML and DL models training for tasks like detection, classification or generation.
 
 ## Origin of the data
 
-The salient chiasmi were extracted from various places, including the work of Dr. Marie Dubremetz and Dr. Joakim Nivres on chiasmus detection, the work and direct help of Pr. Randy Harris, the book "Never let a fool kiss you or a kiss fool you" by Dr. Mardy Grothe and various - sometimes serendipitous - findings on the internet. The non-salient antimetaboles were extracted from a subset of the [COCA dataset](https://www.english-corpora.org/coca/). The random sentences were extracted from several datasets from [Data World](https://data.world/): [200k English plaintext jokes](https://data.world/taivop/200-k-english-plaintext-jokes), [un_general_speeches](https://data.world/jmalina/un-general-speeches) and the abstract part of [arXiv STEM scholarly articles](https://data.world/liz-friedman/arxiv-stem-scholarly-articles)
+The salient chiasmi were extracted from various places, including the work of Dr. Marie Dubremetz and Dr. Joakim Nivres on chiasmus detection, the work and direct help of Pr. Randy Harris, the book "Never let a fool kiss you or a kiss fool you" by Dr. Mardy Grothe and various - sometimes serendipitous - findings on the internet. The non-salient antimetaboles were extracted from a subset of the [COCA dataset](https://www.english-corpora.org/coca/). The random sentences were extracted from several datasets from [Data World](https://data.world/): [200k English plaintext jokes](https://data.world/taivop/200-k-english-plaintext-jokes), [un_general_speeches](https://data.world/jmalina/un-general-speeches) and the abstract column of [arXiv STEM scholarly articles](https://data.world/liz-friedman/arxiv-stem-scholarly-articles)
 
 This data was gathered by Yohan Meyer, Diana Nurbakova and Guillaume Berthomet with the help of Jelena Mitrovic and Ramona Kühn.
 
