@@ -24,5 +24,3 @@ All the data can be found in the `data` sub-folder, in one of the following file
   - `all-data.json` contains **all** the data collected, including non-antimetabole text extracts.
   - `chiasmi.json` contains all the chiasmi and thus antimetaboles, including nonsalient antimetaboles but not the non-antimetabole extracts.
   - `antimetaboles.json` contains all antimetaboles, salient and non salient ones, but not examples of chiasmi.
-
-- Finally, the `nonsalient-antimetaboles.json` and `not-antimetaboles.json` files contains all the nonsalient antimetaboles and not antimetaboles extract respectively.
