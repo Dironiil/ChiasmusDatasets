@@ -19,8 +19,8 @@ All the data can be found in the `data` sub-folder, in one of the following file
   - `salient.json`contains all salient chiasmi and antimetaboles. In particular, this file also has extra information about the chiasmi from those dataset, with an indication - when known - of the **source** in which it was found and its **original author**.
 - Files with only negative examples of chiasmi:
   - `nonsalient-antimetaboles.json` contains all rhetorically nonsalient antimetaboles. All of those can be considered negative examples of "true" antimetaboles.
-  - `not-antimetaboles.json` files contains all the extracts without any specific inverse repetition.
+  - `not-chiasmi.json` files contains all the extracts without any specific inverse repetition.
 - Files with some combinations of both:
   - `all-data.json` contains **all** the data collected, including non-antimetabole text extracts.
-  - `chiasmi.json` contains all the chiasmi and thus antimetaboles, including nonsalient antimetaboles but not the non-antimetabole extracts.
-  - `antimetaboles.json` contains all antimetaboles, salient and non salient ones, but not examples of chiasmi.
+  - `all-chiasmi.json` contains all the chiasmi and thus antimetaboles, including nonsalient antimetaboles but not the non-antimetabole extracts.
+  - `all-antimetaboles.json` contains all antimetaboles, salient and non salient ones, but no other type of chiasmi.
