@@ -15,11 +15,14 @@ This data was gathered by Yohan Meyer, Diana Nurbakova and Guillaume Berthomet w
 The data is organized in json files. Each json file contains a unique list, in which the examples are listed. Each chiasmi has at least two properties: *text* is the raw text containing the antimetabole and *category* is the category of the chiasmi. The category can be one of: `Antimetabole`, `SemanticChiasmus`, `PhoneticChiasmus`, `NonSalientAntimetabole` and `NotAntimetabole`. The difference between the latter two is that a nonsalient antimetabole will still include an inverse repetition of lemmata,  whereas a phrase that is not an antimetabole should not show any inverse repetition.
 
 All the data can be found in the `data` sub-folder, in one of the following files:
-- The `all-data.json` file contains **all** the data collected, including non-antimetabole text extracts.
-- The `chiasmi.json` file contains all the chiasmi and thus antimetaboles, including nonsalient antimetaboles but not the non-antimetabole extracts.
-  - In particular, this file has extra information about the chiasmi from those dataset, with an indication - when known - of the source in which it was found and the original author.
-  
-- The `antimetaboles.json` contains all antimetaboles, salient and non salient ones, but not examples of chiasmi.
-- The `salient.json` file contains all salient chiasmi and antimetaboles.
+- Files with only positive examples of chiasmi:
+  - `salient.json`contains all salient chiasmi and antimetaboles. In particular, this file also has extra information about the chiasmi from those dataset, with an indication - when known - of the **source** in which it was found and its **original author**.
+- Files with only negative examples of chiasmi:
+  - `nonsalient-antimetaboles.json` contains all rhetorically nonsalient antimetaboles. All of those can be considered negative examples of "true" antimetaboles.
+  - `not-antimetaboles.json` files contains all the extracts without any specific inverse repetition.
+- Files with some combinations of both:
+  - `all-data.json` contains **all** the data collected, including non-antimetabole text extracts.
+  - `chiasmi.json` contains all the chiasmi and thus antimetaboles, including nonsalient antimetaboles but not the non-antimetabole extracts.
+  - `antimetaboles.json` contains all antimetaboles, salient and non salient ones, but not examples of chiasmi.
 
 - Finally, the `nonsalient-antimetaboles.json` and `not-antimetaboles.json` files contains all the nonsalient antimetaboles and not antimetaboles extract respectively.
