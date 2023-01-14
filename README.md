@@ -19,6 +19,7 @@ The data is organized in json files in the `data` subfolder. Each json file cont
 All the data can be found in the `data` sub-folder, in one of the following files:
 - Files with only positive examples of chiasmi:
   - `salient-chiasmi.json`contains all salient chiasmi and antimetaboles. In particular, this file also has extra information about the collected chiasmi, with an indication - when known - of the **source** in which it was found and its **original author**.
+  - `dubremetz-antimetaboles.json` contains specifically the 21 antimetaboles from the appendices of "Syntax Matters for Rhetorical Structure: The Case of Chiasmus" (Dubremetz and Nivre, 2016). They can be used for testing and comparison purposes.
 - Files with only negative examples of chiasmi:
   - `nonsalient-antimetaboles.json` contains all rhetorically nonsalient antimetaboles. All of those can be considered negative examples of "true" antimetaboles.
   - `non-chiasmi.json` files contains all the extracts without any specific inverse repetition.
