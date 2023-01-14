@@ -2,7 +2,7 @@
 
 This github repository contains an extensive number of annotated data: salient chiasmi and antimetaboles and non-salient antimetaboles. It is also accompanied by a list of random sentences that are not specifically chiastic. It is important to note that due to the size of the datasets, the data can not be perfect and a few errors will have sneaked up while annotating.
 
-Specifically, this repository contains ***742*** salient chiasmi (subdived into ***638*** antimetaboles, ***98*** semantic chiasmi and ***8*** phonetic chiasmi), ***2720*** rhetorically nonsalient antimetaboles and ***1388*** random extracts without any particular chiastic repetition detected, for a total of ***3462*** annotated extracts including a chiastic repetition and ***4850*** total number of annotated extracts.
+Specifically, this repository contains ***763*** salient chiasmi (subdived into ***659*** antimetaboles, ***98*** semantic chiasmi and ***8*** phonetic chiasmi), ***2720*** rhetorically nonsalient antimetaboles and ***1388*** random extracts without any particular chiastic repetition detected, for a total of ***3462*** annotated extracts including a chiastic repetition and ***4850*** total number of annotated extracts.
 
 This data can thus be used for any NLP tasks involving chiasmi that needs a large amount of data, like ML and DL models training for tasks like detection, classification or generation.
 
