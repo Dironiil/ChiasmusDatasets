@@ -27,3 +27,6 @@ All the data can be found in the `data` sub-folder, in one of the following file
   - `all-data.json` contains **all** the data collected, including non-antimetabole text extracts.
   - `all-chiasmi.json` contains all the chiasmi and thus antimetaboles, including nonsalient antimetaboles but not the non-antimetabole extracts.
   - `all-antimetaboles.json` contains all antimetaboles, salient and non salient ones, but no other type of chiasmi.
+
+Moreover, the `data/new` subfolder contains all the data that was added using the novel approach described in Guillaume Berthomet's master thesis. Those files are:
+- `frankenstein-chiasmi.json`, a collection of 575 sentences with some form of antimetaboles, of which 3 were considered rhetorically salient antimetaboles.
