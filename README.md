@@ -22,7 +22,7 @@ All the data can be found in the `data` sub-folder, in one of the following file
   - `dubremetz-antimetaboles.json` contains specifically the 21 antimetaboles from the appendices of "Syntax Matters for Rhetorical Structure: The Case of Chiasmus" (Dubremetz and Nivre, 2016). They can be used for testing and comparison purposes.
 - Files with only negative examples of chiasmi:
   - `nonsalient-antimetaboles.json` contains all rhetorically nonsalient antimetaboles. All of those can be considered negative examples of "true" antimetaboles.
-  - `non-chiasmi.json` files contains all the extracts without any specific inverse repetition.
+  - `non-chiasmi.json` files contains all the extracts which have not been analyzed for chiastic repetitions.
 - Files with some combinations of both:
   - `all-data.json` contains **all** the data collected, including non-antimetabole text extracts.
   - `all-chiasmi.json` contains all the chiasmi and thus antimetaboles, including nonsalient antimetaboles but not the non-antimetabole extracts.
