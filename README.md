@@ -34,9 +34,9 @@ Moreover, the `data/new` subfolder contains all the data that was added using th
 ## Citation
 
 ```
-@mastersthesis{meyer2023_chiasmi,
-  author={Yohan Meyer},
-  title={Application of comprehensive and responsible Machine Learning methods to the detection of chiasmi's rhetorical salience},
+@mastersthesis{berthomet2023_antimetabole,
+  author={Guillaume Berthomet},
+  title={Detecting Salient Antimetaboles in English Texts using Deep and Transfer Learning},
   school={University of Passau \& INSA Lyon},
   year={2023}
 }
