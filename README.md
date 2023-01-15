@@ -30,3 +30,14 @@ All the data can be found in the `data` sub-folder, in one of the following file
 
 Moreover, the `data/new` subfolder contains all the data that was added using the novel approach described in Guillaume Berthomet's master thesis. Those files are:
 - `frankenstein-chiasmi.json`, a collection of 575 sentences with some form of antimetaboles, of which 3 were considered rhetorically salient antimetaboles.
+
+## Citation
+
+```
+@mastersthesis{meyer2023_chiasmi,
+  author={Yohan Meyer},
+  title={Application of comprehensive and responsible Machine Learning methods to the detection of chiasmi's rhetorical salience},
+  school={University of Passau \& INSA Lyon},
+  year={2023}
+}
+```
