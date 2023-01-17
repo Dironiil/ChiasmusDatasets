@@ -2,7 +2,7 @@
 
 This github repository contains an extensive number of annotated data: salient chiasmi and antimetaboles and non-salient antimetaboles. It is also accompanied by a list of random sentences that are not specifically chiastic. It is important to note that due to the size of the datasets, a few annotations errors may have sneaked up in the data.
 
-Specifically, this repository contains ***763*** salient chiasmi (subdived into ***659*** antimetaboles, ***98*** semantic chiasmi and ***8*** phonetic chiasmi), ***2720*** rhetorically nonsalient antimetaboles and ***1388*** random extracts without any particular chiastic repetition detected, for a total of ***3462*** annotated extracts including a chiastic repetition and ***4850*** total number of annotated extracts. Those numbers **DO NOT** include the additional data gathered from the full texts of *Frankenstein* and *Dracula*, those examples are stored in a separate subfolder as explained below.
+Specifically, this repository contains ***764*** salient chiasmi (subdived into ***659*** antimetaboles, ***98*** semantic chiasmi and ***9*** phonetic chiasmi), ***2720*** rhetorically nonsalient antimetaboles and ***1388*** random extracts without any particular chiastic repetition detected, for a total of ***3462*** annotated extracts including a chiastic repetition and ***4850*** total number of annotated extracts. Those numbers **DO NOT** include the additional data gathered from the full texts of *Frankenstein* and *Dracula*, those examples are stored in a separate subfolder as explained below.
 
 This data can thus be used for any NLP tasks involving chiasmi that needs a large amount of data, like ML and DL models training for tasks like detection, classification or generation.
 
