@@ -2,7 +2,7 @@
 
 This github repository contains an extensive number of annotated data: salient chiasmi and antimetaboles and non-salient antimetaboles. It is also accompanied by a list of random sentences that are not specifically chiastic. It is important to note that due to the size of the datasets, a few annotations errors may have sneaked up in the data.
 
-Specifically, this repository contains ***763*** salient chiasmi (subdived into ***659*** antimetaboles, ***98*** semantic chiasmi and ***8*** phonetic chiasmi), ***2720*** rhetorically nonsalient antimetaboles and ***1388*** random extracts without any particular chiastic repetition detected, for a total of ***3462*** annotated extracts including a chiastic repetition and ***4850*** total number of annotated extracts.
+Specifically, this repository contains ***763*** salient chiasmi (subdived into ***659*** antimetaboles, ***98*** semantic chiasmi and ***8*** phonetic chiasmi), ***2720*** rhetorically nonsalient antimetaboles and ***1388*** random extracts without any particular chiastic repetition detected, for a total of ***3462*** annotated extracts including a chiastic repetition and ***4850*** total number of annotated extracts. Those numbers **DO NOT** include the additional data gathered from the full texts of *Frankenstein* and *Dracula*, those examples are stored in a separate subfolder as explained below.
 
 This data can thus be used for any NLP tasks involving chiasmi that needs a large amount of data, like ML and DL models training for tasks like detection, classification or generation.
 
@@ -28,9 +28,9 @@ All the data can be found in the `data` sub-folder, in one of the following file
   - `all-chiasmi.json` contains all the chiasmi and thus antimetaboles, including nonsalient antimetaboles but not the non-antimetabole extracts.
   - `all-antimetaboles.json` contains all antimetaboles, salient and non salient ones, but no other type of chiasmi.
 
-Moreover, the `data/new` subfolder contains all the data that was added using the novel approach described in Guillaume Berthomet's master thesis. Those files are:
-- `frankenstein-chiasmi.json`, a collection of 575 sentences with some form of antimetaboles, of which 3 were considered rhetorically salient antimetaboles.
-
+Moreover, the `data/new` subfolder contains all the data that was added using the novel approach described in Guillaume Berthomet's master thesis, adding a total of 14 antimetaboles and 2 semantic chiasmi to the numbers above. Those files are:
+- `frankenstein-chiasmi.json`, a collection of 575 sentences with some form of lexical criss-cross patterns, of which 4 are rhetorically salient antimetaboles.
+- `dracula-chiasmi.json`, a collection of 1,396 sentences with some form of lexical criss-cross patterns, 10 are salient antimetaboles and 2 salient semantic chiasmi.
 ## Citation
 
 ```
